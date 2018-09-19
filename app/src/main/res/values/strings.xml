@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Wifi TFlow</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_borrarDB">Borrar entrenamiento</string>
+    <string name="action_copiarDB">Copiar entrenamiento</string>
+    <string name="ElegirTipoModo">Elegir el modo de operación</string>
+    <string name="TipoModo">Modo de operación</string>
+    <string name="CantidadDeMuestras">Cantidad de muestras para cada posición</string>
+    <string name="CantidadDeMuestrasTitulo">Cantidad de muestras</string>
+    <string name="Preferencias">Ajustes</string>
+    <string name="borrarSqliteSummary">Borrar los datos de entrenamiento al ingresar a la aplicación</string>
+    <string name="borrarSqlite">Borrar los datos al ingresar</string>
+    <string name="operacion">Operación</string>
+    <string name="comunicaciones">Comunicaciones</string>
+    <string name="txData">Transmitir resultados de scan</string>
+    <string name="txDataSummary">Transmite las MACs y niveles del último scan</string>
+    <string name="IP">Dirección IP</string>
+    <string name="IPSummary">Dirección IP del servidor</string>
+    <string name="puerto">Número de Puerto</string>
+    <string name="puertoSummary">Número de Puerto TCP</string>
+</resources>

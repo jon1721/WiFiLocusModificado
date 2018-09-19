@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+
+    <PreferenceCategory
+        android:title="@string/operacion">
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/tiposModo"
+        android:entryValues="@array/tiposModoValores"
+        android:key="modo"
+        android:summary="@string/ElegirTipoModo"
+        android:title="@string/TipoModo"/>
+
+    <EditTextPreference
+        android:defaultValue="5"
+        android:key="muestras"
+        android:summary="@string/CantidadDeMuestras"
+        android:title="@string/CantidadDeMuestrasTitulo"/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="borrarSqlite"
+        android:summary="@string/borrarSqliteSummary"
+        android:title="@string/borrarSqlite"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/comunicaciones">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="txdata"
+            android:summary="@string/txDataSummary"
+            android:title="@string/txData"/>
+        <EditTextPreference
+            android:defaultValue="192.168.0.6"
+            android:key="ip"
+            android:summary="@string/IPSummary"
+            android:title="@string/IP"/>
+        <EditTextPreference
+            android:defaultValue="7777"
+            android:key="puerto"
+            android:summary="@string/puertoSummary"
+            android:title="@string/puerto"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

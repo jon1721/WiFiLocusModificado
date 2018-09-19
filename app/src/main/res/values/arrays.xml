@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tiposModo">
+        <item>Entrenamiento</item>
+        <item>Uso</item>
+    </string-array>
+    <string-array name="tiposModoValores">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>
